@@ -3746,6 +3746,7 @@
             var steps = startingState[ root.id ];
             var step;
             while ( step = steps.pop() ) {
+
                 // Reset x/y/z in cases where this plugin has changed it.
                 if ( step.relX !== null ) {
                     if ( step.x === null ) {
